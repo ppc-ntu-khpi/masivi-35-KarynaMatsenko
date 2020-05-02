@@ -1,15 +1,16 @@
-import java.util.Arrays;
-
+/**
+ * 
+ * @author Admin
+ */
 public class Main {
-
-    public static void main(String[] args) {
-        int [][] matrix = new int[3][3];
-        int x=0;
-
-        for(int[] row:matrix)
-            Arrays.fill(row,x);
-
-        for(int[] row:matrix)
-            System.out.println(Arrays.toString(row));
+public static void main(String[] args) {
+    /**
+     * @param N - number of rows
+     * @param M - number of columns
+     */
+        byte N = 2;
+        byte M = 3;
+        System.out.println("Result:\n"+TestArray.Matrix(N, M));
     }
 }
+
